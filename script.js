@@ -1,7 +1,6 @@
-function alert() {
-  'use strict';
+/*jslint devel: true*/
+var name = 'alex';
+
+for (var i = 0; i < 10; i++) {
+  print(2 * 2);
 }
-function print(text) {
-  console.log(text);
-}
-print("hello");

@@ -2,15 +2,17 @@
 var out = '';
 var br = '<br>';
 var buffer = '';
+var count = 1;
 
 function print(data) {
   "use strict";
-  data += br;
+  data = '<i>' + count + ': </i>' + data + br;
   buffer += data;
   out = buffer;
+  count++;
 }
 
-function slice(dmtr) {
+function circleArea(dmtr) {
   "use strict";
   return Math.PI * ((dmtr * dmtr) / 4);
 }
